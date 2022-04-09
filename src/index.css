@@ -12,9 +12,9 @@
 :root {
   /* Color palette varibales */
   --black: #020301;
-  --yellow: #ffdb15;
+  --yellow: #ffdc15c3;
   --khaki: #b5a197;
-  --white: #f3f5f9;
+  --white: #f3f5f9cb;
 
   /* Fonts */
   --RubicGlitch: "Rubik Glitch", cursive;

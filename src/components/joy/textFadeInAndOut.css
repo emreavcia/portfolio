@@ -5,6 +5,7 @@ h2 {
   color: var(--yellow);
   overflow: hidden;
   text-align: center;
+  margin-bottom: 3em;
 }
 
 h2:before {

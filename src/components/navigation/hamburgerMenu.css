@@ -21,9 +21,11 @@ i {
 
 .hamburger:last-child:hover {
   transform: translateY(-0.8em);
+  color: var(--khaki);
 }
 .hamburger:first-child:hover {
   transform: translateY(-0.8em);
+  color: var(--khaki);
 }
 
 .cross:first-child {
@@ -32,4 +34,8 @@ i {
 
 .cross:last-child {
   transform: rotate(45deg) translateY(-0.15em);
+}
+
+.cross:hover {
+  color: var(--yellow);
 }
