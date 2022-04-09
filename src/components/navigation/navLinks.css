@@ -1,0 +1,26 @@
+/* Navigation Links */
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+  margin-right: 3em;
+}
+
+li {
+  text-transform: uppercase;
+  padding: 0.1em 0.3em;
+  margin-right: 0.5em;
+}
+
+.navLinks {
+  color: var(--black);
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: "Gochi Hand", cursive;
+  transition: 1.5s;
+}
+
+.navLinks:hover {
+  color: var(--white);
+}

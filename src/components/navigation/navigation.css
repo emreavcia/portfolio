@@ -1,0 +1,26 @@
+header {
+  background-color: var(--khaki);
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* logo where EA is */
+.logo {
+  font-family: var(--RubicGlitch);
+  text-decoration: none;
+  color: var(--black);
+  font-size: 3em;
+}
+
+.logo:hover {
+  color: var(--yellow);
+}
+/* logo where EA is */

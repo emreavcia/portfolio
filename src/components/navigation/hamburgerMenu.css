@@ -1,0 +1,27 @@
+/* Hamburger Menu */
+i {
+  width: 2.5em;
+  height: 0.2em;
+  background-color: var(--white);
+  border-radius: 0.7em;
+  transition: 1.5s;
+  display: block;
+  transition-timing-function: cubic-bezier(0.33, 0.7, 1, -1.47);
+}
+
+.hamburger_container {
+  position: relative;
+  margin-left: auto;
+}
+
+.hamburger:last-child {
+  transform: translateY(0.4em);
+}
+
+.cross:first-child {
+  transform: rotate(-45deg) translateY(0.15em);
+}
+
+.cross:last-child {
+  transform: rotate(45deg) translateY(-0.15em);
+}

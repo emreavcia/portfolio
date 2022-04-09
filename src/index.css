@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+
+/* Custom css resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Custom css resets */
+
+:root {
+  /* Color palette varibales */
+  --black: #020301;
+  --yellow: #ffdb15;
+  --khaki: #b5a197;
+  --white: #f3f5f9;
+
+  /* Fonts */
+  --RubicGlitch: "Rubik Glitch", cursive;
+}
