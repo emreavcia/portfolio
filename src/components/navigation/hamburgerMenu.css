@@ -1,21 +1,29 @@
 /* Hamburger Menu */
 i {
-  width: 2.5em;
+  width: 1.8em;
   height: 0.2em;
   background-color: var(--white);
   border-radius: 0.7em;
-  transition: 1.5s;
+  transition: 0.8s;
   display: block;
   transition-timing-function: cubic-bezier(0.33, 0.7, 1, -1.47);
 }
 
 .hamburger_container {
+  padding: 2em;
   position: relative;
   margin-left: auto;
 }
 
 .hamburger:last-child {
   transform: translateY(0.4em);
+}
+
+.hamburger:last-child:hover {
+  transform: translateY(-0.8em);
+}
+.hamburger:first-child:hover {
+  transform: translateY(-0.8em);
 }
 
 .cross:first-child {

@@ -1,0 +1,32 @@
+h2 {
+  position: relative;
+  font-family: var(--GochiHand);
+  font-size: 0.85em;
+  color: var(--yellow);
+  overflow: hidden;
+  text-align: center;
+}
+
+h2:before {
+  content: "";
+  position: absolute;
+  left: 120%;
+  width: 120%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--khaki) 5%,
+    var(--white) 100%
+  );
+  animation: textFade 7s linear forwards;
+}
+
+@keyframes textFade {
+  0% {
+    left: -20%;
+  }
+  100% {
+    left: 120%;
+  }
+}

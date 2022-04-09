@@ -1,7 +1,6 @@
 header {
-  background-color: var(--khaki);
   display: flex;
-  padding: 1em;
+  padding: 0.1em 6em;
   justify-content: space-between;
   align-items: center;
 }
@@ -14,13 +13,14 @@ nav {
 
 /* logo where EA is */
 .logo {
+  line-height: 1em;
   font-family: var(--RubicGlitch);
   text-decoration: none;
-  color: var(--black);
-  font-size: 3em;
+  color: var(--khaki);
+  font-size: 2em;
 }
 
 .logo:hover {
-  color: var(--yellow);
+  color: var(--white);
 }
 /* logo where EA is */

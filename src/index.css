@@ -18,4 +18,19 @@
 
   /* Fonts */
   --RubicGlitch: "Rubik Glitch", cursive;
+  --GochiHand: "Gochi Hand", cursive;
+}
+
+body {
+  background-color: var(--black);
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
 }
