@@ -13,7 +13,7 @@ footer a {
 
 footer a:hover {
   text-decoration: underline var(--yellow);
-  animation: textUnderline 0.5s;
+  animation: textUnderline 0.1s;
 }
 
 @keyframes textUnderline {

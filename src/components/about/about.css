@@ -1,4 +1,4 @@
-.about {
+section.about {
   margin-top: 1em;
   width: 100%;
   display: flex;
@@ -7,19 +7,48 @@
   justify-content: center;
 }
 
-.about p {
+.about h2 {
   color: var(--khaki);
   font-family: var(--RubikMonoOne);
   font-size: 2em;
   text-align: center;
   order: 2;
   margin-top: 1em;
+  transition: 2s;
+  animation: flowingInText 4s ease-in-out;
+}
+
+@keyframes flowingInText {
+  0% {
+    margin-left: -15em;
+    opacity: 0;
+  }
+
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
 }
 
 .about img {
   width: 15em;
   height: 15em;
   object-fit: cover;
-  border: 1em solid var(--khaki);
   border-radius: 50%;
+  border: 1em solid var(--khaki);
+  animation: flowingInImg 2s linear;
+}
+
+@keyframes flowingInImg {
+  0% {
+    margin-right: -15em;
+    opacity: 0;
+    border: 0 solid var(--khaki);
+  }
+
+  100% {
+    margin-right: 0;
+    opacity: 1;
+    border: 1em solid var(--khaki);
+  }
 }
