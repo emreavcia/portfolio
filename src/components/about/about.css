@@ -1,0 +1,25 @@
+.about {
+  margin-top: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about p {
+  color: var(--khaki);
+  font-family: var(--RubikMonoOne);
+  font-size: 2em;
+  text-align: center;
+  order: 2;
+  margin-top: 1em;
+}
+
+.about img {
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
+  border: 1em solid var(--khaki);
+  border-radius: 50%;
+}
