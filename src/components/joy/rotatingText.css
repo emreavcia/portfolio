@@ -1,7 +1,8 @@
 .circle {
-  width: 100%;
-  height: 50vh;
+  width: 90%;
+  height: 40vh;
   position: relative;
+  margin-bottom: 2em;
 }
 
 .rotating_text_container {
@@ -33,7 +34,8 @@
   }
 }
 
-span {
+.rotating_text span {
+  color: var(--khaki);
   position: absolute;
   left: 50%;
   font-size: 1em;

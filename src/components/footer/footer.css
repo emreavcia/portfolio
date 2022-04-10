@@ -1,0 +1,27 @@
+footer {
+  margin: 0 6em 3em;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+
+footer a {
+  color: var(--khaki);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline var(--yellow);
+  animation: textUnderline 0.5s;
+}
+
+@keyframes textUnderline {
+  0% {
+    text-decoration: none;
+  }
+
+  100% {
+    text-decoration: underline;
+  }
+}

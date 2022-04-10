@@ -3,7 +3,7 @@ import "./mainText.css"
 
 const MainText = () => {
     return (
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsam iusto enim laborum saepe veritatis dicta exercitationem, eaque optio autem, ex incidunt consequatur suscipit aliquam facilis illum officiis! Facere, veniam.</p>
+        <p className='main_text'>I enjoy playing around with <span>HTML5</span> <span>CSS3</span> <span>JavaScript</span> and <span>REACT.js</span></p>
     )
 }
 

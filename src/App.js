@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import HomePage from "./components/joy/HomePage";
 import Navigation from "./components/navigation/Navigation"
 import { HashLoader } from "react-spinners";
+import Footer from "./components/footer/Footer";
 function App() {
 
   const [spinner, setSpinner] = useState(true)
@@ -27,6 +28,7 @@ function App() {
             <>
               <Navigation />
               <HomePage />
+              <Footer />
             </>
           )
 
