@@ -1,0 +1,42 @@
+.circle {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.rotating_text_container {
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  bottom: 2em;
+  right: 2em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotating_text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: rotateText 10s linear infinite;
+}
+
+@keyframes rotateText {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+span {
+  position: absolute;
+  left: 50%;
+  font-size: 1em;
+  transform-origin: 0 4em;
+  font-family: var(--RubicGlitch);
+}

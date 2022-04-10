@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import HomePage from "./components/mainpage/HomePage";
+import HomePage from "./components/joy/HomePage";
 import Navigation from "./components/navigation/Navigation"
 import { HashLoader } from "react-spinners";
 function App() {
