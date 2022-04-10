@@ -19,7 +19,6 @@
 
 .rotating_text {
   position: absolute;
-  width: 20vw;
   height: 20vh;
   animation: rotateText 20s linear infinite;
 }
