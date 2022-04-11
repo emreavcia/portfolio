@@ -22,6 +22,4 @@ li {
 
 .navLinks:hover {
   color: var(--white);
-  unicode-bidi: bidi-override;
-  direction: rtl;
 }
