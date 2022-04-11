@@ -24,4 +24,5 @@ li {
   color: var(--white);
   unicode-bidi: bidi-override;
   direction: rtl;
+  cursor: pointer;
 }

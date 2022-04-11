@@ -43,7 +43,7 @@ const About = () => {
 
     const handlePopUp = () => {
         setCounter(counter + 1)
-        const content = careerContent.splice(0, `${counter % 7}`)
+        const content = careerContent.splice(0, `${counter % (careerContent.length + 1)}`)
         setNewCareerContent(content)
 
     }
