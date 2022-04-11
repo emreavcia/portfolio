@@ -22,10 +22,12 @@ i {
 .hamburger:last-child:hover {
   transform: translateY(-0.8em);
   color: var(--khaki);
+  cursor: pointer;
 }
 .hamburger:first-child:hover {
   transform: translateY(-0.8em);
   color: var(--khaki);
+  cursor: pointer;
 }
 
 .cross:first-child {
@@ -38,4 +40,5 @@ i {
 
 .cross:hover {
   color: var(--yellow);
+  cursor: pointer;
 }
