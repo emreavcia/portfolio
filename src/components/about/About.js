@@ -42,8 +42,8 @@ const About = () => {
     const [newCareerContent, setNewCareerContent] = useState([])
 
     const handlePopUp = () => {
-        counter < careerContent.length && setCounter(counter + 1)
-        const content = careerContent.splice(0, `${counter}`)
+        setCounter(counter + 1)
+        const content = careerContent.splice(0, `${counter % 7}`)
         setNewCareerContent(content)
 
     }
