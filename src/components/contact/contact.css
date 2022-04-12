@@ -1,0 +1,19 @@
+.contact_me_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--khaki);
+  font-family: var(--secondary-font);
+  font-size: 3em;
+  height: 60vh;
+}
+
+.contact_me_email a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.contact_me_email a:hover {
+  color: var(--yellow);
+}

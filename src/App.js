@@ -5,6 +5,7 @@ import Navigation from "./components/navigation/Navigation"
 import { HashLoader } from "react-spinners";
 import Footer from "./components/footer/Footer";
 import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
 function App() {
 
   const [spinner, setSpinner] = useState(true)
@@ -32,6 +33,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
               </Routes>
               <Footer />
             </>

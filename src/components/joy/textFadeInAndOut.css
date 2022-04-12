@@ -1,4 +1,4 @@
-h2 {
+.fade_in_text {
   position: relative;
   font-family: var(--secondary-font);
   font-size: 0.85em;
@@ -8,7 +8,7 @@ h2 {
   margin-bottom: 3em;
 }
 
-h2:before {
+.fade_in_text:before {
   content: "";
   position: absolute;
   left: 120%;
