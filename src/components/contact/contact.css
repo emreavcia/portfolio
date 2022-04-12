@@ -1,4 +1,5 @@
 .contact_me_container {
+  margin: 0.8em auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -6,7 +7,10 @@
   color: var(--khaki);
   font-family: var(--secondary-font);
   font-size: 3em;
-  height: 60vh;
+  height: 50vh;
+}
+.contact_me_paragraph {
+  text-align: center;
 }
 
 .contact_me_email a {

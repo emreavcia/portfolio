@@ -9,7 +9,7 @@ section.about {
 .click_me_section {
   display: flex;
   flex-direction: column;
-  grid-column: 3/8;
+  grid-column: 4/7;
   grid-row: 1/10;
   align-items: center;
   justify-content: center;
