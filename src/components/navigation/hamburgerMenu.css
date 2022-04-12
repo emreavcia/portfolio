@@ -39,6 +39,6 @@ i {
 }
 
 .cross:hover {
-  color: var(--yellow);
+  background-color: var(--yellow);
   cursor: pointer;
 }

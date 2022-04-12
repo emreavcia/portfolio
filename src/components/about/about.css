@@ -5,7 +5,7 @@ section.about {
   grid-template: repeat(9, 11%) / repeat(9, 10%);
 }
 
-/* opacity, trnasition. mix */
+/* opacity, transition. mix */
 .click_me_section {
   display: flex;
   flex-direction: column;
