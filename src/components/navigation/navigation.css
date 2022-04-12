@@ -12,7 +12,6 @@ nav {
   justify-content: space-between;
 }
 
-/* logo where EA is */
 .logo {
   line-height: 1em;
   font-family: var(--RubicGlitch);
@@ -24,4 +23,3 @@ nav {
 .logo:hover {
   color: var(--yellow);
 }
-/* logo where EA is */
