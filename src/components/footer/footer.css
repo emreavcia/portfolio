@@ -10,11 +10,12 @@ footer a {
   color: var(--khaki);
   text-decoration: none;
   font-family: var(--secondary-font);
+  font-size: 2em;
 }
 
 footer a:hover {
   text-decoration: underline var(--yellow);
-  animation: textUnderline 0.1s;
+  color: var(--yellow);
 }
 
 @keyframes textUnderline {
