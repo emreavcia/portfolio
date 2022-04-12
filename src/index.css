@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 /* Custom css resets */
 * {
   margin: 0;
@@ -18,8 +17,7 @@
 
   /* Fonts */
   --RubicGlitch: "Rubik Glitch", cursive;
-  --GochiHand: "Gochi Hand", cursive;
-  --RubikMonoOne: "Rubik Mono One", sans-serif;
+  --secondary-font: "Orbitron", sans-serif;
 }
 
 body {

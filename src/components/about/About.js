@@ -5,6 +5,9 @@ import "./about.css"
 
 const About = () => {
 
+    const clikcMeText = ["Click on me (my picture)!", "Click to see more", "You've seen all",]
+    const [clikcMeTextCounter, setClikcMeTextCounter] = useState(0)
+
     const careerContent = [
         {
             id: uuid(),
@@ -43,15 +46,22 @@ const About = () => {
 
     const handlePopUp = () => {
         setCounter(counter + 1)
+        setClikcMeTextCounter(clikcMeTextCounter + 1)
         const content = careerContent.splice(0, `${counter % (careerContent.length + 1)}`)
         setNewCareerContent(content)
-
+        console.log(counter, careerContent.length)
+        if (counter - 5 < careerContent.length) {
+            setClikcMeTextCounter(1)
+        } else {
+            setClikcMeTextCounter(2)
+        }
     }
 
     return (
         <section className='about'>
             <div className='click_me_section'>
-                <h2>Click on me <br /> (my picture)!</h2>
+                {/* should be modified */}
+                <h2>{clikcMeText[clikcMeTextCounter]}</h2>
                 <img src="mySnapShot.jpg" alt="mySnapShot" onClick={handlePopUp} />
             </div>
             {

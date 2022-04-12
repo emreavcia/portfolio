@@ -1,6 +1,6 @@
 h2 {
   position: relative;
-  font-family: var(--GochiHand);
+  font-family: var(--secondary-font);
   font-size: 0.85em;
   color: var(--yellow);
   overflow: hidden;

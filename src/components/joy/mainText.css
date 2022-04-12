@@ -1,6 +1,6 @@
 .main_text {
   color: var(--khaki);
-  font-family: var(--RubikMonoOne);
+  font-family: var(--secondary-font);
   font-size: 2em;
   position: relative;
 }
