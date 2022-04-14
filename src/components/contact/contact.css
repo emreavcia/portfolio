@@ -36,7 +36,7 @@
 
 @media (min-width: 300px) and (max-width: 576px) {
   .contact_me_container {
-    margin: 2em 0 0;
+    margin: 2em 0 1em;
     font-size: 1.2em;
     height: 50vh;
   }
