@@ -37,7 +37,7 @@ const NavLinks = () => {
         <ul className='nav-list'>
             {
                 navLink.map(navLink => (
-                    <li className='nav-list-item'><Link onClick={() => handleNavLinkClikc(navLink.id)} className={`navLinks ${navLink.active && "navLinks-active"}`} to={navLink.navLinkTo}>{navLink.navLinkName}</Link></li>
+                    <li key={navLink.id} className='nav-list-item'><Link onClick={() => handleNavLinkClikc(navLink.id)} className={`navLinks ${navLink.active && "navLinks-active"}`} to={navLink.navLinkTo}>{navLink.navLinkName}</Link></li>
                 ))
             }
         </ul>

@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setSpinner(false)
-    }, 6000)
+    }, 3000)
   }, [])
 
   return (
