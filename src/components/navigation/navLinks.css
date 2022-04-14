@@ -24,6 +24,11 @@
   color: var(--yellow);
 }
 
+.navLinks-active {
+  color: var(--yellow);
+  text-decoration: var(--yellow) underline;
+}
+
 @media (max-width: 576px) {
   .nav-list {
     margin-bottom: 0;
