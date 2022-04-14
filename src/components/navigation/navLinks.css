@@ -32,18 +32,19 @@
 @media (max-width: 576px) {
   .nav-list {
     margin-bottom: 0;
-    margin-right: 0.5em;
+    margin-right: auto;
+    margin-left: 1em;
   }
 
   .nav-list-item {
-    padding: 0.1em 0.3em;
-    margin-right: 0.5em;
+    padding: 0.1em 0.1em;
+    margin-right: 0.2em;
   }
 
   .navLinks {
     color: var(--khaki);
     text-decoration: none;
-    font-size: 0.5em;
+    font-size: 0.8em;
     font-family: var(--secondary-font);
     transition: 0.5s;
   }

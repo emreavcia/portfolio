@@ -35,14 +35,14 @@ footer a:hover {
 
 @media (max-width: 576px) {
   footer {
-    margin: 0 1em 0 1em;
+    margin: 3em 1em 0 2em;
   }
 
   footer a {
     color: var(--khaki);
     text-decoration: none;
     font-family: var(--secondary-font);
-    font-size: 0.5em;
+    font-size: 1.5em;
   }
 }
 
