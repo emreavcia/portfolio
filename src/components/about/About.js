@@ -49,7 +49,6 @@ const About = () => {
         setClikcMeTextCounter(clikcMeTextCounter + 1)
         const content = careerContent.splice(0, `${counter % (careerContent.length + 1)}`)
         setNewCareerContent(content)
-        console.log(counter, careerContent.length)
         if (counter - 5 < careerContent.length) {
             setClikcMeTextCounter(1)
         } else {
