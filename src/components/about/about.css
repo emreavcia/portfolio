@@ -1,15 +1,16 @@
 section.about {
   margin: 3em 0 3em 4em;
   width: 95%;
+  height: 60vh;
   display: grid;
-  grid-template: repeat(9, 11%) / repeat(9, 10%);
+  grid-template: repeat(10, 11%) / repeat(10, 10%);
 }
 
 /* opacity, transition. mix */
 .click_me_section {
   display: flex;
   flex-direction: column;
-  grid-column: 4/7;
+  grid-column: 4/8;
   grid-row: 1/10;
   align-items: center;
   justify-content: center;
