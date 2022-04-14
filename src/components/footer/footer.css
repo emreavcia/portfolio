@@ -1,9 +1,14 @@
 footer {
   margin: 0 6em 0 5em;
 }
-ul {
+
+.footer-list {
   display: flex;
   list-style: none;
+}
+
+.footer-list-item {
+  margin-right: 1em;
 }
 
 footer a {
@@ -29,6 +34,16 @@ footer a:hover {
 }
 
 @media (max-width: 576px) {
+  footer {
+    margin: 0 1em 0 1em;
+  }
+
+  footer a {
+    color: var(--khaki);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-size: 0.5em;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */

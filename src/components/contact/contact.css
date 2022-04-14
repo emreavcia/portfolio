@@ -23,6 +23,11 @@
 }
 
 @media (max-width: 576px) {
+  .contact_me_container {
+    margin: 0.4em 0;
+    font-size: 0.7em;
+    height: 50vh;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */

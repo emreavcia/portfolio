@@ -1,12 +1,12 @@
 /* Navigation Links */
-ul {
+.nav-list {
   list-style: none;
   display: flex;
   margin-bottom: 0;
   margin-right: 3em;
 }
 
-li {
+.nav-list-item {
   text-transform: uppercase;
   padding: 0.1em 0.3em;
   margin-right: 0.5em;
@@ -25,6 +25,23 @@ li {
 }
 
 @media (max-width: 576px) {
+  .nav-list {
+    margin-bottom: 0;
+    margin-right: 0.5em;
+  }
+
+  .nav-list-item {
+    padding: 0.1em 0.3em;
+    margin-right: 0.5em;
+  }
+
+  .navLinks {
+    color: var(--khaki);
+    text-decoration: none;
+    font-size: 0.5em;
+    font-family: var(--secondary-font);
+    transition: 0.5s;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */

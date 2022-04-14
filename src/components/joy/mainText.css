@@ -1,12 +1,13 @@
 .main_text {
   color: var(--khaki);
+  margin-bottom: 1em;
   font-family: var(--secondary-font);
   font-size: 2em;
   position: relative;
 }
 
 .main_text span:hover {
-  color: var(--yellow);
+  color: var(--white);
 }
 
 @media (max-width: 576px) {

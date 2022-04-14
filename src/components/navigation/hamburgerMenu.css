@@ -44,6 +44,42 @@ i {
 }
 
 @media (max-width: 576px) {
+  i {
+    width: 0.9em;
+    height: 0.1em;
+    background-color: var(--white);
+    border-radius: 0.7em;
+    transition: 0.8s;
+    display: block;
+    transition-timing-function: cubic-bezier(0.33, 0.7, 1, -1.47);
+  }
+
+  .hamburger_container {
+    padding: 0.5em;
+  }
+
+  .hamburger:last-child {
+    transform: translateY(0.4em);
+  }
+
+  .hamburger:last-child:hover {
+    transform: translateY(-0.4em);
+    color: var(--khaki);
+    cursor: pointer;
+  }
+  .hamburger:first-child:hover {
+    transform: translateY(-0.4em);
+    color: var(--khaki);
+    cursor: pointer;
+  }
+
+  .cross:first-child {
+    transform: rotate(-45deg) translateY(0.075em);
+  }
+
+  .cross:last-child {
+    transform: rotate(45deg) translateY(-0.075em);
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */

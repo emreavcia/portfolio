@@ -4,6 +4,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-top: 3em;
+  width: auto;
 }
 
 nav {
@@ -25,6 +26,15 @@ nav {
 }
 
 @media (max-width: 576px) {
+  header {
+    padding: 0.1em 1em;
+    margin-top: 0.5em;
+  }
+
+  .logo {
+    line-height: 0.5em;
+    font-size: 0.5em;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
