@@ -34,12 +34,13 @@
 }
 
 .rotating_text span {
-  color: var(--khaki);
+  color: var(--black);
   position: absolute;
   left: 50%;
   font-size: 1em;
   transform-origin: 0 4em;
   font-family: var(--RubicGlitch);
+  background-color: var(--yellow);
 }
 
 @media (max-width: 576px) {

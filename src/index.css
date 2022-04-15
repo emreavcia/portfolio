@@ -20,11 +20,20 @@
   --secondary-font: "Orbitron", sans-serif;
 }
 
+body::selection {
+  background-color: var(--yellow);
+}
+
 body {
   background-color: var(--black);
   position: relative;
   width: 100%;
   height: 100%;
+}
+
+::selection {
+  background-color: var(--yellow);
+  color: var(--black);
 }
 
 .spinner {
