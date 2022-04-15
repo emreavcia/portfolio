@@ -1,3 +1,9 @@
+.fade_in_text_container {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  width: 15vw;
+}
 .fade_in_text {
   position: relative;
   font-family: var(--secondary-font);
@@ -20,15 +26,15 @@
     var(--khaki) 5%,
     var(--white) 100%
   );
-  animation: textFade 7s linear forwards;
+  animation: textFade 2s linear forwards;
 }
 
 @keyframes textFade {
   0% {
-    left: -20%;
+    left: -5%;
   }
   100% {
-    left: 120%;
+    left: 105%;
   }
 }
 

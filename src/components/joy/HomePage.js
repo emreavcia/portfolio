@@ -4,15 +4,14 @@ import Motion from './Motion'
 import TextFadeInAndOut from './TextFadeInAndOut'
 import RotatingText from "./RotatingText"
 import "./homePage.css"
-import { motion, useAnimation } from "framer-motion"
-
+import { useAnimation } from "framer-motion"
 
 const HomePage = () => {
     const move = useAnimation()
     const moveBack = useAnimation()
     const handleAnimation = () => {
         move.start({
-            scale: 1.2,
+            scale: 1.5,
             rotate: 270,
             borderRadius: "50%",
             transition: { duration: 1 }
@@ -22,7 +21,7 @@ const HomePage = () => {
     const handleAnimationMoveBack = () => {
         move.start({
             scale: 1,
-            rotate: -270,
+            rotate: -360,
             borderRadius: 0,
             transition: { duration: 1 }
         })

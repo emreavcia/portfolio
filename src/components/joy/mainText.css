@@ -6,6 +6,21 @@
   position: relative;
 }
 
+.main_text span {
+  animation: colorChange 5s ease-in-out infinite;
+  border-radius: 2px;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: black;
+  }
+
+  100% {
+    background-color: rgb(21, 21, 21);
+  }
+}
+
 .main_text span:hover {
   color: var(--white);
 }
