@@ -3,6 +3,9 @@ main {
 }
 
 @media (max-width: 576px) {
+  main {
+    margin: 0 3em;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
