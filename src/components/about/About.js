@@ -37,7 +37,7 @@ const About = () => {
         {
             id: uuid(),
             heading: "Certificates",
-            content: "21 certifactes about Front-end Programming"
+            content: "21 certificates of Front-end Programming"
         }
     ]
 
