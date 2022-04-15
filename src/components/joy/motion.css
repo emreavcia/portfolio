@@ -1,0 +1,19 @@
+.box-container {
+  margin: 0 auto;
+  width: 60vh;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 5em;
+  height: 5em;
+  background-color: var(--white);
+}
+.box-triangle {
+  justify-self: flex-end;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
