@@ -3,15 +3,16 @@
   width: 60vh;
   height: 20vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .box {
-  width: 5em;
-  height: 5em;
+  width: 1em;
+  height: 1em;
   background-color: var(--white);
 }
-.box-rotating {
-  justify-self: flex-end;
+
+.rounding {
+  margin: 0 1em;
 }

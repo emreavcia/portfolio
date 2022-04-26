@@ -6,7 +6,9 @@
   position: relative;
 }
 
-.main_text span {
+.main_text a {
+  color: var(--white);
+  text-decoration: none;
   animation: colorChange 5s ease-in-out infinite;
   border-radius: 2px;
 }

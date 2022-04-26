@@ -8,22 +8,22 @@ const Motion = ({ move }) => {
         <div className='box-container'>
 
             <motion.div
-                className='box box-triangle'
+                className='box'
                 animate={move}
             >
             </motion.div>
             <motion.div
-                className='box'
+                className='box rounding'
                 animate={{
                     scale: [1, 2, 2, 1, 1],
                     rotate: [0, 0, 270, 270, 0],
-                    borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+                    borderRadius: ["20%", "20%", "50%", "50%", "20%"]
                 }}
                 transition={{ delay: 3, duration: 2 }}
             >
             </motion.div>
             <motion.div
-                className='box box-rotating'
+                className='box'
                 animate={move}
             >
             </motion.div>

@@ -15,6 +15,10 @@ i {
   margin-left: auto;
 }
 
+.hamburger_container:hover {
+  cursor: pointer;
+}
+
 .hamburger:last-child {
   transform: translateY(0.4em);
 }
