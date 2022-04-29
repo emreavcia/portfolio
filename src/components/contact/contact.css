@@ -13,12 +13,14 @@
   text-align: center;
 }
 
-.contact_me_email a {
+.contact_me_email a,
+.contact_me_paragraph a {
   text-decoration: none;
   color: var(--white);
 }
 
-.contact_me_email a:hover {
+.contact_me_email a:hover,
+.contact_me_paragraph a:hover {
   color: var(--yellow);
 }
 

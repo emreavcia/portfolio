@@ -23,6 +23,10 @@
   }
 }
 
+.hi_text {
+  text-align: center;
+}
+
 .main_text span:hover {
   color: var(--white);
 }

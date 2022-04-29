@@ -58,6 +58,7 @@ const About = () => {
 
     return (
         <section className='about'>
+            <h1 className='sr-only'>About me, Emre Avci</h1>
             <div className='click_me_section'>
                 <h2>{clikcMeText[clikcMeTextCounter]}</h2>
                 <img src="mySnapShot.jpg" alt="mySnapShot" onClick={handlePopUp} />
