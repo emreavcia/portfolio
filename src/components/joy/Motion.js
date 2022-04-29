@@ -6,7 +6,6 @@ const Motion = ({ move }) => {
 
     return (
         <div className='box-container'>
-
             <motion.div
                 className='box'
                 animate={move}
@@ -15,7 +14,7 @@ const Motion = ({ move }) => {
             <motion.div
                 className='box rounding'
                 animate={{
-                    scale: [1, 2, 2, 1, 1],
+                    scale: [1, 10, 10, 5, 1],
                     rotate: [0, 0, 270, 270, 0],
                     borderRadius: ["20%", "20%", "50%", "50%", "20%"]
                 }}

@@ -59,7 +59,6 @@ const About = () => {
     return (
         <section className='about'>
             <div className='click_me_section'>
-                {/* should be modified */}
                 <h2>{clikcMeText[clikcMeTextCounter]}</h2>
                 <img src="mySnapShot.jpg" alt="mySnapShot" onClick={handlePopUp} />
             </div>
