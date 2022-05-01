@@ -5,8 +5,8 @@ import "./about.css"
 
 const About = () => {
 
-    const clikcMeText = ["Click on me (my picture)!", "Click to see more", "You've seen all",]
-    const [clikcMeTextCounter, setClikcMeTextCounter] = useState(0)
+    const clikcMeText = ["Click on me (my picture)!", "Click to see more", "You've seen all"]
+    const [clickMeTextCounter, setClickMeTextCounter] = useState(0)
 
     const careerContent = [
         {
@@ -41,18 +41,17 @@ const About = () => {
         }
     ]
 
-    const [counter, setCounter] = useState(1)
+    const [counter, setCounter] = useState(0)
     const [newCareerContent, setNewCareerContent] = useState([])
 
     const handlePopUp = () => {
-        setCounter(counter + 1)
-        setClikcMeTextCounter(clikcMeTextCounter + 1)
-        const content = careerContent.splice(0, `${counter % (careerContent.length + 1)}`)
-        setNewCareerContent(content)
-        if (counter - 5 < careerContent.length) {
-            setClikcMeTextCounter(1)
+
+        if (counter <= careerContent.length - 1) {
+            setNewCareerContent(careerContent.splice(0, counter + 1))
+            setCounter(counter + 1)
+            setClickMeTextCounter(1)
         } else {
-            setClikcMeTextCounter(2)
+            setClickMeTextCounter(2)
         }
     }
 
@@ -60,7 +59,7 @@ const About = () => {
         <section className='about'>
             <h1 className='sr-only'>About me, Emre Avci</h1>
             <div className='click_me_section'>
-                <h2>{clikcMeText[clikcMeTextCounter]}</h2>
+                <h2>{clikcMeText[clickMeTextCounter]}</h2>
                 <img src="mySnapShot.jpg" alt="mySnapShot" onClick={handlePopUp} />
             </div>
             {
