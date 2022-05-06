@@ -1,5 +1,5 @@
 .circle {
-  width: 100%;
+  width: 95%;
   height: 10vh;
   position: relative;
   margin-bottom: 2em;
@@ -41,4 +41,18 @@
   transform-origin: 0 4em;
   font-family: var(--RubicGlitch);
   background-color: var(--yellow);
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
 }
