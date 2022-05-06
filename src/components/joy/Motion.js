@@ -16,7 +16,8 @@ const Motion = ({ move }) => {
                 animate={{
                     scale: [1, 10, 10, 5, 1],
                     rotate: [0, 0, 270, 270, 0],
-                    borderRadius: ["20%", "20%", "50%", "50%", "20%"]
+                    borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+                    backgroundColor: ["#f3f5f9cb", "#ffdc15c3", "#ffdc15c3", "#ffdc15c3", "#f3f5f9cb"]
                 }}
                 transition={{ delay: 3, duration: 2 }}
             >

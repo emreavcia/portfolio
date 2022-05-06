@@ -14,6 +14,7 @@ const HomePage = () => {
             scale: 1.5,
             rotate: 270,
             borderRadius: "50%",
+            backgroundColor: ["#f3f5f9cb", "#ffdc15c3", "#ffdc15c3", "#ffdc15c3", "#ffdc15c3"],
             transition: { duration: 1 }
         })
     }
@@ -23,6 +24,7 @@ const HomePage = () => {
             scale: 1,
             rotate: -360,
             borderRadius: 0,
+            backgroundColor: ["#f3f5f9cb", "#ffdc15c3", "#ffdc15c3", "#ffdc15c3", "#f3f5f9cb"],
             transition: { duration: 1 }
         })
     }
